@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 70px;
+    padding: 20px 100px;
+    width: 100%;
+    background-color: #1F2937;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font: 18px;
+    color: #e5e7eb;
+}
+
+ul h1 {
+    font-size: 24px;
+    color: #F9faf8;
+}
+
+section {
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+#intro {
+    
+}
