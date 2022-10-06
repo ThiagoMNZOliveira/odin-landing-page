@@ -35,6 +35,7 @@ ul h1 {
 
 section {
     height: 100%;
+    padding: 0 200px;
 }
 
 .links {
@@ -43,5 +44,49 @@ section {
 }
 
 #intro {
+    background-color: #1F2937;
+    padding: 100px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 10px;
+    padding: 20px;
     
+}
+
+.text img {
+    width: 500px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9faf8;
+}
+
+.text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.text button {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    color: #F9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
 }
