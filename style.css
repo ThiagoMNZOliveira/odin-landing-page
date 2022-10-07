@@ -155,3 +155,43 @@ section {
 .author {
     color: #1F2937;
 }
+
+#sign {
+    display: flex;
+    padding: 100px 150px;
+}
+
+.sign-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100%;
+    padding: 25px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-text {
+    color: #e5e7eb;
+}
+
+.sign-container button {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    background-color: #3882f6;
+    border: solid #F9faf8;
+    border-radius: 8px;
+    color: #F9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
