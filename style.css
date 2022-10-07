@@ -110,6 +110,7 @@ section {
 #pictures h1 {
     font-size: 36px;
     color: #1F2937;
+    font-weight: bold;
 }
 
 .images {
@@ -126,4 +127,31 @@ section {
 
 .images legend {
     text-align: center;
+}
+
+#quote {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    max-width: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    color: #1F2937;
 }
